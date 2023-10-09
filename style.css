@@ -1,3 +1,4 @@
+/* inserimento immagine di copertina */
 #top-header{
     background-image: url(img/pattern.png);
     background-color: rgb(69, 145, 233);
@@ -5,23 +6,23 @@
     height: 180px;
     position: relative;
 }
-
+/* posizionamento logo su immagine di copertina */
 #logo{
     height: 40%;
     position: absolute;
     bottom: 10px;
 }
-
+/* ridimensionamento titolo principale */
 #prima_pagina{
     font-size: 70px;
     font-weight: 9  00;
 }
-
+/* margine per separare le immagini dal blocco superiore */
 .primo_piano{
     margin-top: 20px;
 }
 
-
+/* styling note e footer */
 .light_gray{
     color: rgb(174, 172, 172);
 }
@@ -29,39 +30,42 @@
     color: blue;
 }
 
-.imagine_footer{
+.imagine_notes{
+    margin-top: 0;
     color: rgb(102, 101, 101);
 }
-
+/* articolo principale superiore */
 #top_article{
     margin-top: 20px; 
 }
-
+/* testo evidenziato */
 #highlight{
     background-color: yellow;
 }
-
+/* articolo inferiore */
 #Bottom_article{
     margin-top: 20px;
 }
+
 ul{
     margin-top: 20px;
     margin-left: 20px;
 }
+
+/* tabella */
 #tab1{
     margin-top: 20px;
+    width: 50%;
 }
-
+/* styling tabella */
 #head{
     background-color: rgba(99, 169, 254, 0.973);
 }
-
-
-
 .even{
     background-color: rgb(122, 209, 238);
 }
 
+/* footer comprende immagini con testo */
 footer{
     margin-top: 40px;
 }
@@ -73,7 +77,9 @@ footer{
 }
 .add_text{
     position: absolute;
-
+    top: 20px;
+    color: white;
+    font-size: 30px;
 }
 
 *{
