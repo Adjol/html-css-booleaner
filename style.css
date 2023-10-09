@@ -34,18 +34,33 @@
 }
 
 #top_article{
-    margin-top: 20px;
+    margin-top: 20px; 
 }
+
 #highlight{
     background-color: yellow;
 }
 
+#Bottom_article{
+    margin-top: 20px;
+}
 ul{
     margin-top: 20px;
     margin-left: 20px;
 }
+#tab1{
+    margin-top: 20px;
+}
+
+#head{
+    background-color: rgba(99, 169, 254, 0.973);
+}
 
 
+
+.even{
+    background-color: rgb(122, 209, 238);
+}
 
 *{
     margin: 0;
