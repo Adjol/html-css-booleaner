@@ -1,7 +1,7 @@
 /* inserimento immagine di copertina */
 #top-header{
     background-image: url(img/pattern.png);
-    background-color: rgb(69, 145, 233);
+    background-color: rgba(78,160,255,255);
     width: 100%;
     height: 180px;
     position: relative;
@@ -27,7 +27,7 @@
     color: rgb(174, 172, 172);
 }
 .blue{
-    color: blue;
+    color: rgba(89,191,236,255);
 }
 
 .imagine_notes{
@@ -59,10 +59,10 @@ ul{
 }
 /* styling tabella */
 #head{
-    background-color: rgba(99, 169, 254, 0.973);
+    background-color: rgba(32,169,229,255);
 }
 .even{
-    background-color: rgb(122, 209, 238);
+    background-color: rgba(177,229,242,255);
 }
 
 /* footer comprende immagini con testo */
